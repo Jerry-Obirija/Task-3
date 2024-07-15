@@ -1,0 +1,17 @@
+Expert systems resolve rulebase conflicts through various strategies to ensure they can make consistent and accurate decisions. Here are some common methods:
+
+1. **Priority or Salience**: Rules can be assigned different priority levels. When conflicts arise, the system will execute the rule with the highest priority first.
+
+2. **Specificity**: More specific rules are given precedence over more general rules. This means that rules that apply to a narrower set of conditions will be executed before those that apply broadly.
+
+3. **Recency**: This strategy resolves conflicts based on the recency of the data or rules. More recent rules or data are given higher priority.
+
+4. **Context**: The system can use the context in which the rules are applied to resolve conflicts. This involves considering the current situation or state of the system.
+
+5. **Random Selection**: When no other conflict resolution strategy can be applied, the system may randomly choose a rule to execute.
+
+6. **Rule Weighting**: Rules can be assigned weights, and the system can use these weights to determine which rule to apply when conflicts occur.
+
+7. **Meta-rules**: These are higher-level rules designed specifically to resolve conflicts between other rules. They provide a framework for deciding which rule should take precedence based on predefined criteria.
+
+By using these strategies, expert systems can manage rule conflicts effectively and make more reliable decisions.
